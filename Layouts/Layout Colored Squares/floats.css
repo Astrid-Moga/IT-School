@@ -1,0 +1,33 @@
+.squares-wrapper {
+    width: 700px;
+}
+
+.squares-wrapper .box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.squares-wrapper div.aqua {
+    background-color: aqua;
+}
+
+.squares-wrapper div.hotpink {
+    background-color: hotpink;
+}
+
+.squares-wrapper div.orange {
+    background-color: orange;
+}
+
+.box {
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
