@@ -1,0 +1,5 @@
+Useful info:
+- colors: 
+    - dark blue: #0c3249
+    - red: #be1623
+- fonts: TBD

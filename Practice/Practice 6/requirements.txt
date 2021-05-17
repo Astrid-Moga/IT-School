@@ -1,0 +1,2 @@
+Requirements:
+- Complete with all necessary HTML code in order to "activate" correctly the given CSS

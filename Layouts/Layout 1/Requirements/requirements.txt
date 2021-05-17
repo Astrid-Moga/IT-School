@@ -1,0 +1,21 @@
+Requirements:
+
+1. The DOC should be well-formed
+2. Please use semantic tags to build the layout
+3. External stylesheet only
+4. Use float for positioning
+5. Use background-image for the main image provided as asset
+5. Use appropriate web-safe fonts
+6. Create all the pages in the menu with dummy text only in order to implement navigation
+7. Color code: #acfdfe (the blue in the layout)
+8. Font-family suggestion: Verdana, Georgia, Arial, sans-serif
+9. Suggestion of use for border-radius
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+}

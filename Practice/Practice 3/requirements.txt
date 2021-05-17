@@ -1,0 +1,8 @@
+Requirements:
+- add a title tag
+- add meta tags
+- add external style sheet
+- use the <link> tag to apply the styles
+- remove all internal CSS to the external resource
+- using CSS selectors, implement the requested layout. There is more than 1 way to do it.
+- add comments to both html and css to document your logic
