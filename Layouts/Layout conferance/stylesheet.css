@@ -1,0 +1,28 @@
+.background {
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-color {
+    color: #fff;
+}
+
+.title {
+    font-size: 3rem;
+    width: 50px;
+}
+
+.subtitle {
+    color: #778899;
+    background-color: #fff;
+}

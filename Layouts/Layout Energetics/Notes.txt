@@ -1,0 +1,6 @@
+Utils:
+- color ECO-FRIENDLY: #3d7ffa
+- color description: #3a80f9
+- link-button gradient: #52d2ff -> #4db5fe
+- menu: #756f7b
+- for the fonts please use google fonts: https://fonts.google.com/
