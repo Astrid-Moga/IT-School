@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* stil direct pe body nu recomand, exista librarii care rescriu tot ce e pe body. de obicei se adauga un nod direct pe body care va contine continutul */
 .img-body {
     background-image: url(../Images/background.jpg);
     background-repeat: no-repeat;
@@ -20,6 +21,7 @@
     width: 100%;
 }
 
+/* ce clase sau cod nu folosesti este ok sa stergi pentru ca iti ocupa codul inutil */
 .float-right {
     float: right;
 }
