@@ -1,28 +1,102 @@
-.background {
-    background-image: url(Images/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-.container {
-    margin: 2rem;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.text-color {
-    color: #fff;
-}
-
-.title {
-    font-size: 3rem;
-    width: 50px;
-}
-
-.subtitle {
-    color: #778899;
-    background-color: #fff;
-}
+        body {
+            height: 100vh;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .background {
+            background-image: url(Images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+        
+        .uppercase {
+            text-transform: uppercase;
+        }
+        
+        .white-text {
+            color: #fff;
+        }
+        
+        .title {
+            font-size: 5rem;
+            width: 50px;
+        }
+        
+        .subtitle {
+            color: #778899;
+            background-color: #fff;
+            font-size: 3rem;
+            padding: 10px;
+        }
+        
+        .heading-wrapper {
+            width: 33%;
+        }
+        
+        .font-size-2 {
+            font-size: 2rem;
+        }
+        
+        .wrapper {
+            padding: 80px;
+        }
+        
+        .left-corner {
+            position: absolute;
+            bottom: 80px;
+        }
+        
+        .right-corner {
+            position: absolute;
+            right: 80px;
+            bottom: 80px
+        }
+        
+        .speaker-item>img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .speakers-list {
+            display: flex;
+            text-align: center;
+        }
+        
+        .speakers-list .speaker-item {
+            margin-right: 15px;
+        }
+        
+        .speakers-wrapper {
+            position: absolute;
+            right: 250px;
+            width: 30%;
+            text-align: center;
+            bottom: 250px;
+        }
+        
+        .event-details-wrapper {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+        }
+        
+        .event-details-wrapper {
+            width: 70%;
+        }
+        
+        .event-information {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .event-information>img {
+            width: 100px;
+            height: 100px;
+        }
