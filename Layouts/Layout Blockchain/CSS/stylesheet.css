@@ -16,7 +16,9 @@ main {
     background-image: url(../Images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* cu acest 30% este greu sa controlezi ce vede user-ul mai ales cand ai si continut, iti atasez un screenshot, ai nevoie de mai mult spatiu aici. si la spatiere pe continut poti sa fi mult mai generoasa, momentat sunt prea inghesuite elementele si layout-ul nu este tocmai respectat */
     height: 30%;
+    border: 2px solid red;
 }
 
 .logo {
