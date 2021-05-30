@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="CSS/stylesheet.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/696094f3ab.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="img-body">
-    <header>
+<body>
+    <header class="background-image">
         <nav class="nav-bar">
 
             <div class="logo ">
@@ -29,9 +30,59 @@
                 </ul>
             </div>
         </nav>
+        <div class="clearfix"></div>
+        <div class="title-wrapper">
+            <h1 class="white-text uppercase"> CONTACT US </h1>
+            <hr class="divider">
+            <p class="white-text">Fill out the form below to learn more</p>
+        </div>
     </header>
     <div class="clearfix"></div>
-    <p class="white-text">This is contact page</p>
+    <main>
+        <div class="form-wrapper">
+            <form action="adresa-serverului">
+                <div class="input-group">
+                    <label for=""> First Name </label>
+                    <div class="input-icon">
+                        <input minlength="5" required placeholder="Enter your first name" type="text">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for=""> Last name</label>
+                    <div class="input-icon">
+                        <input minlength="5" required placeholder="Enter your last name" type="text">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                </div>
+                <div class="input-group">
+                    <label for=""> Email </label>
+                    <div class="input-icon">
+                        <input required placeholder="Enter your email" type="email" name="" id="">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <hr class="divider">
+                <div class="input-group">
+                    <label for=""> Message </label>
+                    <textarea minlength="50" maxlength="250" required rows="5"></textarea>
+                </div>
+                <div class="form-submit">
+                    <button type="submit" class="btn"> Submit </button>
+                    <span> or press <span class="bold-text"> enter </Span > </span>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="uppercase"> blockchain </div>
+            <div class="uppercase light-blue-text"> technology </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
