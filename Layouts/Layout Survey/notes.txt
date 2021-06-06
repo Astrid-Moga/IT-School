@@ -1,0 +1,12 @@
+Requirements:
+- create 2 pages for each step of the survey
+- please make a difference when to use Radio buttons and when to use Checkboxes
+- use Google Fonts for all family Fonts
+- implement as dynamic as possible, avoiding manual positioning
+- pay attention to common CSS rules
+- next button should lead to 2nd page, back button should lead to 1st page
+- send button has no destination for now, but please pay attention to the used type
+- 1st page -> How do you collaborate in our board? -> Other option should contained a styled field
+
+Utils:
+- colors: #38daa1 (green), #afafaf(dark grey)

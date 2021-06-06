@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="website-background">
+        <div class="picture-wrapper">
+            <img src="images/step-1.png" alt="step 1">
+            <h1> Notification Survey </h1>
+        </div>
+        <div class="form-content pad-bottom-25">
+            <div class="pad-bottom-25">
+                <p class="pad-bottom-10">We are working on our notification system to make our product work better</p>
+
+                <p>THe survey consists in several questions and usually takes 5-7 minutes to complete</p>
+            </div>
+
+            <form action="">
+                <div class="input-wrapper pad-bottom-25">
+                    <label> Enter your email</label>
+                    <input type="email" placeholder="Your answer">
+                </div>
+                <fieldset class="pad-bottom-25">
+                    <legend class="pad-bottom-10">Are you an admin or a member on our Board ?</legend>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="role" type="radio">
+                        <label>Admin</label>
+                    </div>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="role" type="radio">
+                        <label>Member</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="pad-bottom-10">How do you collaborate in our Board?</legend>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="collaboration-type" type="radio">
+                        <label>Create and edit content</label>
+                    </div>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="collaboration-type" type="radio">
+                        <label>Comment and leave comment</label>
+                    </div>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="collaboration-type" type="radio">
+                        <label>Just review created comment</label>
+                    </div>
+                    <div class="radio-button pad-bottom-10">
+                        <input name="collaboration-type" type="radio">
+                        <label>Other:</label>
+                        <input class="no-border-textbox" type="text">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+        <button class="btn">
+    Next
+</button>
+    </main>
+</body>
+
+</html>
