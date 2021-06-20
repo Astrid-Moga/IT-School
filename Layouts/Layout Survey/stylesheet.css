@@ -5,8 +5,10 @@
     box-sizing: border-box;
 }
 
+/* atentie vh iti ia ca si referinta stric viewport-ul, dar continutul tau poate sa depaseasca asta, unde intervine scroll-ul. drept urmare nu are efect, adaug un border ca sa fie mai clar, dar si acel background gri explica acelasi lucru, se vede si in inregistrarea atasata. */
 body {
     height: 100vh;
+    border: 1px solid red;
 }
 
 .picture-wrapper {
@@ -27,6 +29,7 @@ body {
     padding: 50px;
 }
 
+/* atentie la h1, nu este centrat si nu se incadreaza pe un rand, ai nevoie de cateva limitari aici */
 .picture-wrapper>h1 {
     position: absolute;
     top: 40%;
