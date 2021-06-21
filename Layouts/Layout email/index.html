@@ -51,12 +51,14 @@
                     font-weight: bolder;
                     text-align:center;
                     ">
+                    <!-- atentie, span-urile sunt ignorate de mare parte din user agents, o posibila solutie aici era sa ai 3 td-uri, pt fiecare element pt care tu ai pus span -->
                     <span style="
                         display: inline-block;
                         position: relative;
                         font-size: 240px;
                         ">30
                     <span style="position: absolute;
+                    /* riscant sa lucram cu percentages pe emeil template, marimile fixe sunt preferate in acest caz */
                           top:40%;
                           left:100%;
                           font-size: 40px;">FF</span>
@@ -82,6 +84,7 @@
             <tr>
                 <td style="text-align:center;
                     padding-top: 20px;
+                    /* sunt curioasa cum ai ajung la acest font-weight? valorile utilizate sunt de obicei 100, 300, 400 etc sau keywords */
                     font-weight:28;
                     ">
                     WITH CODE SALE30
