@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+}
+
+.nav-bar-links>a {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-weight: 900;
+}
+
+.nav-bar-links {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-title {
+    width: 30%;
+}
+
+.nav-bar-title>h1 {
+    text-transform: capitalize;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.font-size-4 {
+    font-size: 4rem;
+}
+
+.font-size-3 {
+    font-size: 3rem;
+}
+
+.article-content {
+    display: inline-block;
+    padding-left: 60px;
+    padding-top: 100px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.article-content>p {
+    padding-top: 20px;
+}
+
+.vacation-image {
+    width: 70%;
+    float: right;
+}
+
+.vacation-image>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-buttons {
+    padding-top: 20px;
+}
+
+.nav-buttons>button {
+    height: 25px;
+    width: 25px;
+    border-color: rgb(230, 205, 124);
+    color: rgb(230, 205, 124);
+    border-width: 1px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.black-flier {
+    width: 35%;
+    display: inline-block;
+    background-color: black;
+    padding: 25px;
+    color: #f3f3f3;
+    margin-top: -50px;
+    margin-left: -30px;
+    box-sizing: border-box;
+}
+
+.black-flier>div {
+    padding-bottom: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cream-flier {
+    display: inline-block;
+    width: 65%;
+    background-color: rgb(221, 188, 145);
+    padding: 25px;
+    color: #f3f3f3;
+    box-sizing: border-box;
+}
+
+.cream-flier>button {
+    border-color: #f3f3f3;
+    background-color: transparent;
+    color: #f3f3f3;
+    border-style: solid;
+    padding: 5px;
+}
+
+.pad-15 {
+    padding: 15px 0;
+}
+
+.menu {
+    display: none;
+}
+
+.show-mobile-screen {
+    display: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    .vacation-image {
+        float: none;
+        width: 100%;
+    }
+    .nav-bar-links {
+        display: none;
+    }
+    .nav-bar-title {
+        width: initial;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-bar {
+        justify-content: space-between;
+    }
+    .cream-flier {
+        width: 100%;
+    }
+    .hide-mobile-screen {
+        display: none;
+    }
+    .show-mobile-screen {
+        display: inline-block;
+    }
+    .article-content {
+        width: 50%;
+        padding-left: 15px;
+        padding-top: 25px;
+    }
+    .black-flier {
+        width: 50%;
+        margin: 0;
+        float: right;
+        height: 400px;
+    }
+    .font-size-4 {
+        font-size: 2rem;
+    }
+    .font-size-3 {
+        font-size: 1.5rem;
+    }
+}
