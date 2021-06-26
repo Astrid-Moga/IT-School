@@ -135,6 +135,8 @@ body {
     display: none;
 }
 
+/* nu este o idee buna sa restrangi asa de tare parte mobile, lasa sa coboara sub 600, 900 daca te gandesti sa cuprinzi tabletele */
+/* ti-am pus si un recording, eu nu vad implementarea mobile,,ar trebui? */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
     .vacation-image {
         float: none;
