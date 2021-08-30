@@ -25,11 +25,29 @@
                 <a href="https://google.com"> Register/Login </a>
             </div>
 
-            <div class="menu">
+            <button class="menu-button" onclick="showMenu()">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
         </nav>
     </header>
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="menu-title">
+            <h1 class="white-text">Best Escapes</h1>
+            <button class="close-button" onclick="hideMenu()"><i class="fas fa-times"></i></button>
+
+        </div>
+        <ul class="menu-links">
+            <li><a href="">Home</a></li>
+            <li>
+                <a href="">Specials</a></li>
+            <li><a href="">Last minute</a></li>
+            <li><a href="">Register/Login</a></li>
+        </ul>
+        <div class="social-icons">
+            <div class="icon"><i class="fab fa-instagram"></i></div>
+            <div class="icon"><i class="fab fa-facebook-f"></i></div>
+        </div>
+    </div>
 
     <div class="vacation-image clearfix">
         <img src="images/bg.jpg" alt="image">
@@ -73,6 +91,8 @@
             <button><i class="fas fa-caret-right"></i></button>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

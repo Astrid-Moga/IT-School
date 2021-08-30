@@ -135,6 +135,70 @@ body {
     display: none;
 }
 
+.mobile-menu {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu-button {
+    border: none;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    color: rgb(221, 188, 145);
+    font-size: 30px;
+}
+
+.white-text {
+    color: #f3f3f3;
+}
+
+.menu-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu-links>li>a {
+    color: #f3f3f3;
+    text-decoration: none;
+    letter-spacing: 4px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 1.7rem;
+}
+
+.menu-links {
+    padding-top: 30px;
+}
+
+.social-icons {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.icon {
+    color: grey;
+    border-top: 1px solid grey;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.social-icons>.icon:first-child {
+    border-right: 1px solid grey;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
     .vacation-image {
         float: none;

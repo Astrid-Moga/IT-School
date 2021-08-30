@@ -34,6 +34,10 @@ body {
     padding-right: 100px;
 }
 
+.pad-10 {
+    padding: 10px;
+}
+
 .pad-30 {
     padding-left: 30px;
     padding-right: 30px;
@@ -135,4 +139,67 @@ header>h1 {
     position: absolute;
     left: -10%;
     bottom: 15%;
+}
+
+.form-wrapper {
+    background-color: #2b2b2b;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.projetcs-button {
+    background-color: #3d3d3d;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.orange-text {
+    color: #c09c78;
+}
+
+.form-wrapper>form>h2 {
+    display: inline-block;
+    padding: 25px;
+    font-size: 50px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.input-box {
+    border: 0;
+    box-sizing: border-box;
+    background-color: #3d3d3d;
+    width: 100%;
+}
+
+.input-group {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 48%;
+}
+
+.contact-form {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.contact-form>div:first-child {
+    width: 66.6%;
+}
+
+.contact-form>div:last-child {
+    width: 33.3%;
+}
+
+.contact-form>div:last-child>textarea {
+    height: 100%;
 }
